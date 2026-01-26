@@ -1,11 +1,11 @@
 
 /**
- * Write a description of class ConversionSecondes here.
+ * Write a description of class ConversionMontant here.
  *
  * @author Serigne Falilou Khouma
  * @version 1.0.0
  */
-public class ConversionSecondes {
+public class ConversionMontant {
     public static void main (String [] args) {
         final int NB_JOURS = 86400;
         final int NB_HEURES = 3600;
