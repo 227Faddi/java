@@ -10,6 +10,7 @@ public class ConversionSecondes {
     public final static int NB_HEURES = 3600;
     public final static int NB_MINUTES = 60;
 
+    public static void main () {
         System.out.println("Bienvenue au convertisseur de secondes...");
 
         boolean repeat = true;
