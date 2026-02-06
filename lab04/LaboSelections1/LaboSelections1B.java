@@ -2,10 +2,10 @@
 /**
  * Write a description of class LaboSelections1A here.
  *
- * @author Serigne Falilou Khouma
- * @version 1.0.0
+ * @author (your name)
+ * @version (a version number or a date)
  */
-public class LaboSelections1A {
+public class LaboSelections1B {
 
     public static final char option1 = 'A';
     public static final char option2 = 'B';
