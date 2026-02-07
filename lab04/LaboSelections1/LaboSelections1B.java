@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class LaboSelections1A here.
+ * Write a description of class LaboSelections1B here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Serigne Falilou Khouma
+ * @version 1.0.0
  */
 public class LaboSelections1B {
 
@@ -20,10 +20,14 @@ public class LaboSelections1B {
         System.out.print(MSG_PRESENTATION);
         char selection = Clavier.lireCharLn();
 
-        if(selection == option1 || selection == option2 || selection == option3){
-            System.out.println(MSG_SUCCESS + selection);
-        } else {
-            System.out.println(MSG_ERREUR);
+        switch (selection){
+            case option1:
+            case option2:
+            case option3:
+                System.out.println(MSG_SUCCESS + selection);
+                break;
+            default:
+                System.out.println(MSG_ERREUR);
         }
     }
 }
