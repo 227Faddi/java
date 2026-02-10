@@ -6,11 +6,12 @@
  * @version 1.0.0
  */
 public class ConversionSecondes {
-    public static void main (String [] args) {
-        final int NB_JOURS = 86400;
-        final int NB_HEURES = 3600;
-        final int NB_MINUTES = 60;
+    public final static int NB_JOURS = 86400;
+    public final static int NB_HEURES = 3600;
+    public final static int NB_MINUTES = 60;
 
+
+    public static void main (String [] args) {
         System.out.println("Bienvenue au convertisseur de secondes...");
 
         boolean repeat = true;

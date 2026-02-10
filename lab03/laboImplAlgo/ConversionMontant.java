@@ -6,11 +6,12 @@
  * @version 1.0.0
  */
 public class ConversionMontant {
+    public final static double BILLET_1 = 0.01;
+    public final static double BILLET_5 = 0.5;
+    public final static double BILLET_10 = 0.10;
+    public final static double BILLET_25 = 0.25;
+
     public static void main (String [] args) {
-        final double BILLET_1 = 0.01;
-        final double BILLET_5 = 0.5;
-        final double BILLET_10 = 0.10;
-        final double BILLET_25 = 0.25;
 
         System.out.print("Bienvenue au convertisseur de montant...");
 
